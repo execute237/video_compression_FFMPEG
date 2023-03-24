@@ -1,0 +1,21 @@
+{
+  "name": "ffmpeg_converter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./dist/app.js"
+  },
+  "author": "Yan Bortsov",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.3",
+    "@types/node": "^18.15.5",
+    "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "inquirer": "^9.1.5"
+  }
+}
